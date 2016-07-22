@@ -165,9 +165,9 @@ public class GameRenderer {
     }
 
     private void drawMenuUI() {
-        batcher.draw(AssetLoader.wbLogo, 34 / 2 - 56, midPointY - 100,
-                AssetLoader.wbLogo.getRegionWidth() / 1.2f,
-                AssetLoader.wbLogo.getRegionHeight() / 1.2f);
+        batcher.draw(AssetLoader.wbLogo, 136 / 8, midPointY - 80,
+                AssetLoader.wbLogo.getRegionWidth() / 5.2f,
+                AssetLoader.wbLogo.getRegionHeight() / 5.2f);
 
         for (SimpleButton button : menuButtons) {
             button.draw(batcher);
